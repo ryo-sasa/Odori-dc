@@ -4,7 +4,7 @@ const timeouts = {}; // タイムアウトを管理するオブジェクト
 module.exports = function(app) {
 
   // 呼び出しショートカット
-  app.shortcut('call_someone', async ({ shortcut, ack }) => {
+  app.shortcut('call_someone_test', async ({ shortcut, ack }) => {
     try {
       await ack();
 
